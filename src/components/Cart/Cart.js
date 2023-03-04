@@ -8,6 +8,7 @@ const Cart = () => {
     const updateCart = useContext(CartContext);
     const [showCart,setShowCart] = useState(false);
     const [showCheckout,setCheckout] = useState(false);
+    const bagpath = "img/bag.png";
     const toggleMealDetail = () =>{
       if(updateCart.totalAmount===0){
         return;
@@ -41,7 +42,7 @@ const Cart = () => {
       
       <div className={classes.cart}>
         <div className={classes.iconImg}>
-            <img src="/img/bag.png" className={classes.bagIcon} alt='NOT FOUND'/>
+            <img src={bagpath} className={classes.bagIcon} alt='NOT FOUND'/>
             {
               updateCart.totalAmount ===0 ? null : <span className={classes.totoalitem}>{updateCart.totalAmount}</span>
             }
