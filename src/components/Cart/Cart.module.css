@@ -1,0 +1,74 @@
+.cart{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 30rem;
+    margin: auto;
+    width: 700rem;
+    height: 80rem;
+    background-color: black;
+    border-radius: 36rem;
+    z-index: 9990;
+    
+}
+
+.totalprice, .emptyItem{
+    border-radius: 36rem;
+    font-size: 30rem;
+    position: absolute;
+    left: 90rem;
+    line-height: 30rem;
+    color: white;
+}
+.emptyItem{
+    z-index: 600;
+    /* background-color: aqua; */
+    color: #aaa;
+}
+.iconImg{
+    position: relative;
+    width: 80rem;
+}
+.bagIcon{
+    position: absolute;
+    top: -14rem;
+    left: -30rem;
+
+
+    width:110rem ;
+    height: 110rem;
+}
+
+.totoalitem{
+    width: 38rem;
+    height: 38rem;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 20rem;
+    position: absolute;
+    left: 36rem;
+    line-height: 30rem;
+    font-size: 22rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.cart_btn{
+    position: absolute;
+    height: 80rem;
+    width: 180rem;
+    border-radius: 36rem;
+    background-color: orange;
+    border: none;
+    right: 0;
+}
+.totalprice::before{
+    content: '$';
+    font-size: 20rem;
+
+
+}
+.disable{
+    background-color: gray ;
+    color: #aaa;
+}

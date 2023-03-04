@@ -1,0 +1,36 @@
+.paybarContainer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 30rem;
+    margin: auto;
+    width: 700rem;
+    height: 80rem;
+    background-color: black;
+    border-radius: 36rem;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+}
+.paybarTotal{
+    font-size: 26rem;
+    color: white;
+    line-height: 80rem;
+    padding-left: 60rem;
+}
+.paybarTotal::before{
+    content: 'In total: $';
+    font-size: 20rem;
+}
+.paybarbtn{
+    border-radius: 36rem;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    width: 180rem ;
+    font-size: 28rem;
+}
+.paybartotalprice{
+    font-size: 26rem;
+    color: white;
+}

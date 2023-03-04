@@ -1,0 +1,49 @@
+.Xmark{
+    width: 50rem;
+    height: 50rem;
+    
+}
+.checkoutPage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    width: 100%;
+    
+    background-color: rgb(243, 235, 235);
+}
+.checkoutContainer{
+    width: 700rem;
+    height: 1100rem;
+    margin: 0 auto;
+    padding-top: 0;
+    background-color: white;
+    border-radius: 30rem;
+}
+.listTitle{
+    padding: 1rem 0 0 40rem;
+    font-size: 30rem;
+    font-weight: bold;
+    border-bottom: 1px gray dotted;
+}
+.totalWrapper{
+    /* height: 100rem; */
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px black dashed;
+    padding-right: 40rem;
+    font-size: 30rem;
+    font-weight: bold;
+}
+.totalPrice::before{
+    content: 'Total $';
+    font-size: 24rem ;
+    font-weight: normal;
+}
+.CheckoutItemsContainer{
+    height: 800rem;
+    overflow: auto;
+}

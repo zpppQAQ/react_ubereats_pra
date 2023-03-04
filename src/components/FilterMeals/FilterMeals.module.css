@@ -1,0 +1,41 @@
+.FilterMeals{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    height: 100rem;
+    /* background-color: #bfa; */
+    z-index: 999;
+    border-bottom: 1rem solid #f2f2f2;
+}
+.searchBar{
+    position: relative;
+}
+.searchInput{
+    width: 650rem;
+    height: 70rem;
+    border: none;
+    border-radius: 16rem;
+    /* background-color: #bfa; */
+    font-weight: bold;
+    padding-left:60rem ;
+    border: 1rem solid #b8b2b2;
+    
+}
+
+.searchIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* background-color: #bfa; */
+    
+    
+    font-size: 30rem;
+    padding-left: 20rem;
+    color: #7a7070;
+    /* color: ; */
+}
