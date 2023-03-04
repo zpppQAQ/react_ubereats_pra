@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_ubereats_pra/static/css/main.257e83ea.css",
+    "main.js": "/react_ubereats_pra/static/js/main.141bb75f.js",
+    "index.html": "/react_ubereats_pra/index.html",
+    "main.257e83ea.css.map": "/react_ubereats_pra/static/css/main.257e83ea.css.map",
+    "main.141bb75f.js.map": "/react_ubereats_pra/static/js/main.141bb75f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.257e83ea.css",
+    "static/js/main.141bb75f.js"
+  ]
+}
